@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Datasets and intermediate files (re-create with preprocess.py)
+data/
+pytorch_data/
+
+# Trained model checkpoints (too large for git)
+checkpoints/
+*.pth
+
+# Generated visualizations and logs
+visualizations/
+*.log
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.idea/
+.vscode/
