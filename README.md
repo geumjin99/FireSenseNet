@@ -72,6 +72,21 @@ that records its optimizer, learning rate, batch size, AMP setting, gradient
 clipping, and whether it uses the augmentation pipeline. To tune
 hyper-parameters, edit that file rather than the training loop.
 
+## Pretrained weights
+
+The best FireSenseNet (CAFIM) checkpoint is published as a GitHub Release
+asset rather than committed to git. Download it once and place it at the
+location ``firesense.evaluate`` expects:
+
+```bash
+mkdir -p checkpoints
+curl -L -o checkpoints/firesense_best.pth \
+    https://github.com/geumjin99/FireSenseNet/releases/download/v1.0.0/firesense_best.pth
+python -m firesense.evaluate          # reproduces F1=0.4200, AUC-PR=0.3437
+```
+
+The asset is roughly 12 MB; SHA-256 is recorded on the release page.
+
 ## Training pipeline
 
 The training pipeline is shared across every architecture and lives in
