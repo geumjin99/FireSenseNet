@@ -122,6 +122,27 @@ recommended.
 
 ## Citation
 
+If you use this code or build on this work, please cite the accompanying
+paper (arXiv preprint, 2026):
+
+```bibtex
+@article{Han2026FireSenseNet,
+  title         = {FireSenseNet: A Dual-Branch CNN with Cross-Attentive Feature
+                   Interaction for Next-Day Wildfire Spread Prediction},
+  author        = {Han, Jinzhen and Lee, JinByeong and Han, Hak and Na, YeonJu
+                   and Lee, Jae-Joon},
+  year          = {2026},
+  eprint        = {2604.07675},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2604.07675}
+}
+```
+
+A machine-readable ``CITATION.cff`` is also included so GitHub can render
+the "Cite this repository" widget.
+
+Please also cite the underlying dataset:
+
 ```bibtex
 @article{Huot2022,
   title     = {Next day wildfire spread: A machine learning dataset to predict

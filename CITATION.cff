@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or build on this work, please cite the accompanying paper."
+title: "FireSenseNet: A Dual-Branch CNN with Cross-Attentive Feature Interaction for Next-Day Wildfire Spread Prediction"
+authors:
+  - family-names: Han
+    given-names: Jinzhen
+  - family-names: Lee
+    given-names: JinByeong
+  - family-names: Han
+    given-names: Hak
+  - family-names: Na
+    given-names: YeonJu
+  - family-names: Lee
+    given-names: Jae-Joon
+version: 1.0.0
+date-released: "2026-05-01"
+url: "https://github.com/geumjin99/FireSenseNet"
+repository-code: "https://github.com/geumjin99/FireSenseNet"
+license: MIT
+preferred-citation:
+  type: article
+  title: "FireSenseNet: A Dual-Branch CNN with Cross-Attentive Feature Interaction for Next-Day Wildfire Spread Prediction"
+  authors:
+    - family-names: Han
+      given-names: Jinzhen
+    - family-names: Lee
+      given-names: JinByeong
+    - family-names: Han
+      given-names: Hak
+    - family-names: Na
+      given-names: YeonJu
+    - family-names: Lee
+      given-names: Jae-Joon
+  year: 2026
+  url: "https://arxiv.org/abs/2604.07675"
+  identifiers:
+    - type: other
+      value: "arXiv:2604.07675"
+      description: "arXiv preprint identifier"
